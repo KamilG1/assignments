@@ -1,0 +1,36 @@
+body {
+	background-color: dimgrey;
+}
+h1 {
+	font-family: arial;
+	font-size: 32px;
+	font-style: italic;
+	color: deepskyblue;
+}
+h2 {
+	font-size:22px;
+	font-style: italic;
+	color:Ghostwhite;
+} 
+p	{
+	font-family: san-serif;
+	font-size:24px;
+	font-height:50;
+	color: Ivory;
+}
+u1	{
+	font-family: serif; 
+	font-style: italic;
+	font-weight: bold;
+	text-transform: lowercase;
+	color: Snow;
+}	
+@font-face {
+	font-family: 'MyWebFont';
+	src: url('myfont.woff2') format('woff2'),
+		url('myfont.woff') format('woff');
+}			
+
+blockquote {
+			font-family: 'MyWebFont', Fallback, sans-serif;
+}	
