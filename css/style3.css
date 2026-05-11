@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 2em;
+	
+}
+.table_container {
+	max-height: 250px;
+	overflow: auto;
+}
+table {
+	width: 400px;
+	text-align: left;
+	position: relative;
+	border-collapse: collapse;
+	background-color: rgb(4, 70, 11);
+}
+th, td {
+	padding: 0.5em;
+}
+th {
+	backgroud: rgb(35, 224, 234);
+	color: Snow;
+	border-radius: 0;
+	padding: 10px;
+	position: sticky;
+	top: 0;
+}
+td {
+	border: 1px solid white;
+	box-sizing: border-box;
+}
+tfoot {
+	background: rgb(174, 192, 13);
+	color: white;
+}
+tbody > tr:hover {
+	background-color: rgb(35, 224, 237);
+}
